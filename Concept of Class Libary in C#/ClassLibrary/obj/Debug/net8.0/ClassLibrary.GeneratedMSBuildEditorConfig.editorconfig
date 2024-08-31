@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ClassLibrary
-build_property.ProjectDir = D:\CodeSphere\CareerDestiny\ASP.NET CORE\PROGRAMENTOR (ASP.NET CORE )\Lecture\ClassLibrary\
+build_property.ProjectDir = D:\CodeSphere\GitHub\CSharpEssentials-\Concept of Class Libary in C#\ClassLibrary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

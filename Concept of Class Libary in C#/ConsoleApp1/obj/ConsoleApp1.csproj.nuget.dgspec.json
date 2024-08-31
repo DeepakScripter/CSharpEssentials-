@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ClassLibrary\\ClassLibrary.csproj": {
+    "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ClassLibrary\\ClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ClassLibrary\\ClassLibrary.csproj",
+        "projectUniqueName": "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ClassLibrary\\ClassLibrary.csproj",
         "projectName": "ClassLibrary",
-        "projectPath": "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ClassLibrary\\ClassLibrary.csproj",
+        "projectPath": "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ClassLibrary\\ClassLibrary.csproj",
         "packagesPath": "C:\\Users\\Deepak Vishvkarma\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ClassLibrary\\obj\\",
+        "outputPath": "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Deepak Vishvkarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Deepak Vishvkarma\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Deepak Vishvkarma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ClassLibrary\\ClassLibrary.csproj": {
-                "projectPath": "D:\\CodeSphere\\CareerDestiny\\ASP.NET CORE\\PROGRAMENTOR (ASP.NET CORE )\\Lecture\\ClassLibrary\\ClassLibrary.csproj"
+              "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "D:\\CodeSphere\\GitHub\\CSharpEssentials-\\Concept of Class Libary in C#\\ClassLibrary\\ClassLibrary.csproj"
               }
             }
           }

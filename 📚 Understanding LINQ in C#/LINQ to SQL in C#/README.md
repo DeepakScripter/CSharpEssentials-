@@ -676,3 +676,89 @@ Ensure that all events are properly connected:
 - **Deployment:**
   - Once satisfied, consider deploying the application or creating an installer for easier distribution.
 
+
+
+---
+
+# 📚 Student Records Display in Windows Forms Application
+
+This project demonstrates how to display student records from a database in a DataGridView and navigate through the records using `Next` and `Previous` buttons in a Windows Forms application.
+
+## 🌟 Features
+
+- Display student data in a `DataGridView` control.
+- Navigate through records using `Next` and `Previous` buttons.
+- Dynamic loading of student data into text boxes for easy viewing.
+
+## 🛠️ Setup Instructions
+
+1. **Drag and Drop Controls:**
+   - Drag a `DataGridView` from the toolbox to the form.
+   - Drag and drop `Label` and `TextBox` controls for each student field (e.g., ID, Name, Class).
+   - Add two `Button` controls labeled `Next` and `Previous` for navigating through records.
+
+2. **Form Load Event:**
+   - Double-click on the form to generate the `Form_Load` event. 
+   - In the `Form_Load` event, create an object of your `DbContext` class and bind the `DataGridView` to the student data.
+
+   ```csharp
+   private void Form1_Load(object sender, EventArgs e)
+   {
+       using (StudentDbContext db = new StudentDbContext())
+       {
+           // Binding DataGridView to the students' data
+           dataGridView1.DataSource = db.Students.ToList();
+       }
+   }
+   ```
+
+3. **Navigate Records:**
+   - Implement the functionality for the `Next` and `Previous` buttons.
+
+   ```csharp
+   int currentIndex = 0;
+   List<Student> studentsList;
+
+   private void Form1_Load(object sender, EventArgs e)
+   {
+       using (StudentDbContext db = new StudentDbContext())
+       {
+           studentsList = db.Students.ToList();
+           LoadStudentData(currentIndex);
+       }
+   }
+
+   private void LoadStudentData(int index)
+   {
+       textBox1.Text = studentsList[index].ID.ToString();
+       textBox2.Text = studentsList[index].Name;
+       textBox3.Text = studentsList[index].Class;
+       // Add more text boxes as needed
+   }
+
+   private void btnNext_Click(object sender, EventArgs e)
+   {
+       if (currentIndex < studentsList.Count - 1)
+       {
+           currentIndex++;
+           LoadStudentData(currentIndex);
+       }
+   }
+
+   private void btnPrevious_Click(object sender, EventArgs e)
+   {
+       if (currentIndex > 0)
+       {
+           currentIndex--;
+           LoadStudentData(currentIndex);
+       }
+   }
+   ```
+
+## 🎯 Key Points
+
+- The `DataGridView` control is bound to the data source (`studentsList`) retrieved from the database.
+- The `Next` and `Previous` buttons allow users to navigate through the student records.
+- The `LoadStudentData` method dynamically updates the text boxes with the current student’s information.
+
+

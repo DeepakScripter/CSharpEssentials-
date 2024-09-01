@@ -3,34 +3,6 @@
 
 Welcome to the Student Management System! This application allows you to **Create**, **Read**, **Update**, and **Delete** student records using ASP.NET MVC and LINQ to SQL. 🎉
 
-## 🚀 **Getting Started**
-
-To get started with the application:
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/your-username/student-management-system.git
-   cd student-management-system
-   ```
-
-2. **Install Dependencies:**
-
-   Ensure you have the required dependencies installed:
-
-   ```bash
-   dotnet restore
-   ```
-
-3. **Run the Application:**
-
-   Start the application using:
-
-   ```bash
-   dotnet run
-   ```
-
-   The application will be available at `http://localhost:5000`.
 
 ## 🛠️ **Setup**
 
